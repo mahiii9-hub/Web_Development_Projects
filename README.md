@@ -9,4 +9,8 @@ This repository contains my web development projects and practice tasks built du
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/)
 
 ---
-*More projects will be added soon!*
+## 2. Interactive Event & Task Manager
+* **Description:** A modern, full-stack task management dashboard with interactive React UI, dynamic progress tracking, task filtering by priority & category, and data persistence.
+* **Live Demo:** [View Live Project](https://mahiii-hub.github.io/Web_Development_Projects/index.html)
+* **Tech Stack:** React, Express.js (REST API), Tailwind CSS
+* 
