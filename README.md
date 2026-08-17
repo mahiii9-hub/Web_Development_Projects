@@ -19,4 +19,3 @@ This repository contains my web development projects and practice tasks built du
 * **Description:** A clean and friendly student study hub website featuring structured study routines, weekly planners, study tips, and an interactive student signup form.
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/2index.html)
 * **Tech Stack:** HTML5, CSS
-* 
