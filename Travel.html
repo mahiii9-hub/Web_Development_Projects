@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Destinations</title>
+  <style>
+                /* Professional Midnight Navy & Gold Theme */
+    
+        /* Dark Theme Professional CSS */
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #121212; /* Deep Black/Charcoal Background */
+        color: #e0e0e0; /* Light Grey text for readability */
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Header with Gradient */
+    header {
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80');
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    /* Navigation Bar - Dark Style */
+    nav {
+        background-color: #1a1a1a;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        border-bottom: 2px solid #333;
+    }
+
+    nav a {
+        color: #ffd700; /* Gold color for links */
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+
+    /* Cards - Dark Theme */
+    .card, .package-card, .feature-card {
+        background-color: #1e1e1e; /* Dark grey card */
+        border: 1px solid #333;
+        color: #ccc;
+        padding: 20px;
+        border-radius: 12px;
+        width: 280px;
+        transition: 0.3s;
+    }
+
+    .card:hover, .package-card:hover {
+        border-color: #ffd700; /* Gold border on hover */
+    }
+
+    h2 {
+        color: #ffd700; /* Gold headings */
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    /* Booking Form - Dark Theme */
+    .booking-form {
+        background-color: #1a1a1a;
+        border: 1px solid #444;
+        color: white;
+        padding: 25px;
+        border-radius: 10px;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+
+    .booking-form input, select, textarea {
+        background-color: #333;
+        color: white;
+        border: 1px solid #555;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .submit-btn {
+        background-color: #ffd700; /* Gold button */
+        color: #000;
+        font-weight: bold;
+        border: none;
+        padding: 12px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #000;
+        color: #777;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+
+        
+
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dream Destinations</h1>
+    <p>Explore the world's most breathtaking destinations with custom tour packages designed just for you.</p>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">Designation</a> |
+    <a href="#">Tour Packages</a> |
+    <a href="#">Why Choose Us</a> | 
+    <a href="#">About Us</a> | 
+    <a href="#">Booking Form</a> | 
+  </nav>
+      <!-- Popular Destinations Section -->
+    <div class="destinations-section">
+        <h2>Popular Destinations</h2>
+        
+        <div class="cards-container">
+            <!-- Destination Card 1 -->
+            <div class="card">
+                <h3>Skardu Valley</h3>
+                <p>Experience the stunning lakes and majestic mountains of northern Pakistan.</p>
+            </div>
+
+            <!-- Destination Card 2 -->
+            <div class="card">
+                <h3>Hunza Valley</h3>
+                <p>Explore ancient forts, cherry blossoms, and breathtaking views.</p>
+            </div>
+
+            <!-- Destination Card 3 -->
+            <div class="card">
+                <h3>Naran Kaghan</h3>
+                <p>Enjoy lush green pine forests, rivers, and cool weather retreats.</p>
+            </div>
+        </div>
+    </div>
+    <div class="packages-section">
+    <h2>Our Tour Packages</h2>
+    
+    <div class="packages-container">
+        <!-- Package Card 1 -->
+        <div class="package-card">
+            <h3>Family Special</h3>
+            <p><strong>Duration:</strong> 5 days/4 nights</p>
+            <p>Enjoy a relaxing family trip with comfortable stays and guided tours.</p>
+            <p class="price">Rs.45000</p>
+        </div>
+
+        <!-- Package Card 2 -->
+        <div class="package-card">
+            <h3>Adventure Seekers</h3>
+            <p><strong>Duration:</strong> 7 days/6 nights</p>
+            <p>Trekking, camping, and thrilling mountain expeditions.</p>
+            <p class="price">Rs.65000</p>
+        </div>
+    </div>
+</div>
+
+  <div class="features-section">
+    <h2>Why Choose Us</h2>
+    <div class="feature-container">
+      <div class="feature-card">
+        <h3>24/7 Support</h3>
+        <p>We are always here to help you during your journey anytime, anywhere.</p>
+            </div>
+      <div class="feature-card">
+        <h3>Best Prices</h3>
+        <p>Enjoy affordable tour packages without compromising on quality.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Expert Guides</h3>
+        <p>Travel safely with experienced local guides who know the best spots.</p>
+      </div>
+       </div>
+    
+  </div>
+      <!-- Booking / Inquiry Form Section -->
+    <div class="booking-section">
+        <h2>Book Your Trip</h2>
+        
+        <form class="booking-form">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" placeholder="Enter your full name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="destination">Choose Destination:</label>
+            <select id="destination">
+                <option value="skardu">Skardu Valley</option>
+                <option value="hunza">Hunza Valley</option>
+                <option value="naran">Naran Kaghan</option>
+            </select>
+
+            <label for="message">Special Requests / Message:</label>
+            <textarea id="message" rows="4" placeholder="Write any specific requirements..."></textarea>
+
+            <button type="submit" class="submit-btn">Submit Booking</button>
+        </form>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Dream Destinations. All Rights Reserved.</p>
+        <p>Designed with HTML & CSS for Travel Agency Practice.</p>
+    </footer>
+
