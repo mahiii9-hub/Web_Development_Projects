@@ -19,3 +19,9 @@ This repository contains my web development projects and practice tasks built du
 * **Description:** A clean and friendly student study hub website featuring structured study routines, weekly planners, study tips, and an interactive student signup form.
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/2index.html)
 * **Tech Stack:** HTML5, CSS
+
+### Travel & Tourism Destination Website
+* **Description:** A luxury, modern travel agency website featuring popular global and local destinations, tour packages, why-choose-us highlights, and an interactive booking form styled with a custom Midnight Navy and Gold theme.
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/travel.html)
+* **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
+  
