@@ -22,6 +22,6 @@ This repository contains my web development projects and practice tasks built du
 
 ### Travel & Tourism Destination Website
 * **Description:** A luxury, modern travel agency website featuring popular global and local destinations, tour packages, why-choose-us highlights, and an interactive booking form styled with a custom Midnight Navy and Gold theme.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/travel.html)
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Travel.html)
 * **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
   
