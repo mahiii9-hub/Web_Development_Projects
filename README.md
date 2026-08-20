@@ -25,3 +25,9 @@ This repository contains my web development projects and practice tasks built du
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Travel.html)
 * **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
   
+
+## SAVORA Restaurant Website
+
+* **Description:** A modern, elegant restaurant web application featuring a custom brand logo, manager card, responsive menu grid, and a special promotional Canva banner.
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Restaurant.html)
+* **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
