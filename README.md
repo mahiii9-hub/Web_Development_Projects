@@ -31,3 +31,9 @@ This repository contains my web development projects and practice tasks built du
 * **Description:** A modern, elegant restaurant web application featuring a custom brand logo, manager card, responsive menu grid, and a special promotional Canva banner.
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Restaurant.html)
 * **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
+
+  ### 5. KicksX — Sneaker Store Landing Page
+* **Description:** A stylish and responsive sneaker store landing page featuring trendy footwear collections, product grids, and an engaging user interface.
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/kicksx.html)
+* **Tech Stack:** HTML5, CSS3
+  
