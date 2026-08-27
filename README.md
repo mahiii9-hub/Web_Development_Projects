@@ -32,7 +32,7 @@ This repository contains my web development projects and practice tasks built du
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Restaurant.html)
 * **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
 
-  ### 5. KicksX — Sneaker Store Landing Page
+  ### 6. KicksX — Sneaker Store Landing Page
 * **Description:** A stylish and responsive sneaker store landing page featuring trendy footwear collections, product grids, and an engaging user interface.
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/kicksx.html)
 * **Tech Stack:** HTML5, CSS3
