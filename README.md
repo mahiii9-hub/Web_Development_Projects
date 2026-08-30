@@ -37,7 +37,7 @@ This repository contains my web development projects and practice tasks built du
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/kicksx.html)
 * **Tech Stack:** HTML5, CSS3
 
-  ### 3. Nestora - Real Estate Web Application
+  ### 7. Nestora - Real Estate Web Application
 * **Description:** A modern, responsive real estate web application featuring property listing layouts, search filters, and property details combined with professional branding assets.
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Real%20Estate/nestore.html)
 * **Tech Stack:** HTML5, CSS3, JavaScript, Canva (for property brochures and branding design)
