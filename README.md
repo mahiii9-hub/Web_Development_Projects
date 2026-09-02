@@ -17,19 +17,19 @@ This repository contains my web development projects and practice tasks built du
 
 ### 3. Study Café — Student Study Hub
 * **Description:** A clean and friendly student study hub website featuring structured study routines, weekly planners, study tips, and an interactive student signup form.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/2index.html)
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/pro-2/2index.html)
 * **Tech Stack:** HTML5, CSS
 
 ### 4. Travel & Tourism Destination Website
 * **Description:** A luxury, modern travel agency website featuring popular global and local destinations, tour packages, why-choose-us highlights, and an interactive booking form styled with a custom Midnight Navy and Gold theme.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Travel.html)
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Travel/Travel.html)
 * **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
   
 
 ## 5. SAVORA Restaurant Website
 
 * **Description:** A modern, elegant restaurant web application featuring a custom brand logo, manager card, responsive menu grid, and a special promotional Canva banner.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Restaurant.html)
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/restaurant/Restaurant.html)
 * **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
 
   ### 6. KicksX — Sneaker Store Landing Page
