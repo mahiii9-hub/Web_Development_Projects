@@ -42,6 +42,11 @@ This repository contains my web development projects and practice tasks built du
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Real%20Estate/nestore.html)
 * **Tech Stack:** HTML5, CSS3, JavaScript, Canva (for property brochures and branding design)
 
+### 8. MCQs Website
+* **Description:** An interactive website for practicing subject-wise MCQs, quizzes, and preparation materials.
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/MCQS/index.html)
+* **Tech Stack:** HTML5, CSS3, JavaScript
+
   Developed by MAHI!
 
   
