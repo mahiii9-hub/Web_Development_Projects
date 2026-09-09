@@ -1,52 +1,19 @@
 # Web Development Projects
 
-This repository contains my web development projects and practice tasks built during my learning journey.
+Welcome to my portfolio repository featuring web development projects and practice tasks built during my learning journey.
+
+## 🚀 Projects Overview
+
+| # | Project | Description | Tech Stack | Live Demo |
+|---|---|---|---|---|
+| 1 | **Tech Innovators Summit 2026** | Semantic HTML5 landing page with event schedules, speaker lists, and forms. | HTML5 | [Live Demo](https://mahiii9-hub.github.io/Web_Development_Projects/index.html) |
+| 2 | **Interactive Event & Task Manager** | Full-stack task management dashboard with dynamic progress tracking and filtering. | React, Express.js, Tailwind CSS | [Live Demo](https://mahiii9-hub.github.io/Web_Development_Projects/Tech/project2.html) |
+| 3 | **Study Café** | Student study hub with study routines, weekly planners, and signup forms. | HTML5, CSS3 | [Live Demo](https://mahiii9-hub.github.io/Web_Development_Projects/pro-2/2index.html) |
+| 4 | **Travel & Tourism Website** | Luxury travel agency portal with custom Midnight Navy & Gold responsive design. | HTML5, CSS3 | [Live Demo](https://mahiii9-hub.github.io/Web_Development_Projects/Travel/Travel.html) |
+| 5 | **SAVORA Restaurant** | Elegant restaurant web app featuring a menu grid, manager card, and promo banner. | HTML5, CSS3 | [Live Demo](https://mahiii9-hub.github.io/Web_Development_Projects/restaurant/Restaurant.html) |
+| 6 | **KicksX Sneaker Store** | Trendy footwear store landing page with interactive product grids and clean UI. | HTML5, CSS3 | [Live Demo](https://mahiii9-hub.github.io/Web_Development_Projects/kicksx/kicksx.html) |
+| 7 | **Nestora Real Estate** | Real estate web app with property listings, filters, and custom branding assets. | HTML5, CSS3, JS, Canva | [Live Demo](https://mahiii9-hub.github.io/Web_Development_Projects/Real%20Estate/nestore.html) |
+| 8 | **MCQs Practice Hub** | Interactive platform for subject-wise MCQs practice, quizzes, and exam prep. | HTML5, CSS3, JavaScript | [Live Demo](https://mahiii9-hub.github.io/Web_Development_Projects/MCQS/index.html) |
 
 ---
-
-## 🚀 Projects List
-
-### 1. Tech Innovators Summit 2026 Landing Page
-* **Description:** A semantic HTML5 project featuring event details, schedules, speaker lists, and forms.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/index.html)
-
-### 2. Interactive Event & Task Manager
-* **Description:** A modern, full-stack task management dashboard with interactive React UI, dynamic progress tracking, task filtering by priority & category, and data persistence.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Tech/project2.html)
-* **Tech Stack:** React, Express.js (REST API), Tailwind CSS
-
-### 3. Study Café — Student Study Hub
-* **Description:** A clean and friendly student study hub website featuring structured study routines, weekly planners, study tips, and an interactive student signup form.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/pro-2/2index.html)
-* **Tech Stack:** HTML5, CSS
-
-### 4. Travel & Tourism Destination Website
-* **Description:** A luxury, modern travel agency website featuring popular global and local destinations, tour packages, why-choose-us highlights, and an interactive booking form styled with a custom Midnight Navy and Gold theme.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Travel/Travel.html)
-* **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
-  
-
-## 5. SAVORA Restaurant Website
-
-* **Description:** A modern, elegant restaurant web application featuring a custom brand logo, manager card, responsive menu grid, and a special promotional Canva banner.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/restaurant/Restaurant.html)
-* **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
-
-  ### 6. KicksX — Sneaker Store Landing Page
-* **Description:** A stylish and responsive sneaker store landing page featuring trendy footwear collections, product grids, and an engaging user interface.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/kicksx/kicksx.html)
-* **Tech Stack:** HTML5, CSS3
-
-  ### 7. Nestora - Real Estate Web Application
-* **Description:** A modern, responsive real estate web application featuring property listing layouts, search filters, and property details combined with professional branding assets.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Real%20Estate/nestore.html)
-* **Tech Stack:** HTML5, CSS3, JavaScript, Canva (for property brochures and branding design)
-
-### 8. MCQs Website
-* **Description:** An interactive website for practicing subject-wise MCQs, quizzes, and preparation materials.
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/MCQS/index.html)
-* **Tech Stack:** HTML5, CSS3, JavaScript
-
-  Developed by MAHI!
-
-  
+**Developed with ❤️ by MAHI!**
