@@ -9,7 +9,7 @@ Welcome to my portfolio repository featuring web development projects and practi
 ### 1. Tech Innovators Summit 2026 Landing Page
 * **Description:** A semantic HTML5 project featuring event details, schedules, speaker lists, and forms.
 * **Tech Stack:** HTML5
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/index.html)
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Pro-1/index.html)
 
 ### 2. Interactive Event & Task Manager
 * **Description:** Full-stack task management dashboard with dynamic progress tracking and task filtering.
