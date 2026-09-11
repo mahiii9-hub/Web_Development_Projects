@@ -46,6 +46,12 @@ Welcome to my portfolio repository featuring web development projects and practi
 * **Tech Stack:** HTML5, CSS3, JavaScript
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/MCQS/index.html)
 
+### 9. Blush Up — Makeup Studio Website
+* **Description:** Modern, responsive landing page for a boutique makeup studio featuring service listings, an interactive gallery lightbox, and an appointment booking form.
+* **Tech Stack:** HTML5, CSS3, JavaScript
+* **Design Tools:** Canva
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Blush-up/index.html)
+
 ---
 
 **Developed with ❤️ by MAHI!**
