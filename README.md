@@ -52,6 +52,13 @@ Welcome to my portfolio repository featuring web development projects and practi
 * **Design Tools:** Canva
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Blush-up/index.html)
 
+### 10. Maison — Online Store & Digital Products Platform
+
+* **Description:** A modern, stylish, and responsive e-commerce web application for browsing and purchasing online courses and digital products with a seamless user experience.
+* **Tech Stack:** HTML5, CSS3, JavaScript
+* **Live Demo:** [View Live Project](https://your-demo-link-here.com)
+
+
 ---
 
 **Developed with ❤️ by MAHI!**
