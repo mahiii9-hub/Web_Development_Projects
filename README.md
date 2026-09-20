@@ -56,7 +56,8 @@ Welcome to my portfolio repository featuring web development projects and practi
 
 * **Description:** A modern, stylish, and responsive e-commerce web application for browsing and purchasing online courses and digital products with a seamless user experience.
 * **Tech Stack:** HTML5, CSS3, JavaScript
-* **Live Demo:** [View Live Project](https://your-demo-link-here.com)
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Online Course/index.html)
+
 
 
 ---
