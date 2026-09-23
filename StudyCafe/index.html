@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Study Café — A Quiet Corner for Curious Minds</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        <span class="logo-mark">SC</span>
+        <span>Study Café</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#planner">Planner</a>
+        <a href="#focus">Focus</a>
+        <a href="#resources">Library</a>
+        <a href="#goal">My Goal</a>
+    </nav>
+
+    <div class="nav-right">
+
+        <button class="theme-btn" id="themeBtn" aria-label="Change theme">
+            ◐
+        </button>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-copy">
+
+        <p class="eyebrow">STUDY • FOCUS • GROW</p>
+
+        <h1>
+            A quiet corner
+            <br>
+            for <em>curious minds.</em>
+        </h1>
+
+        <p class="hero-description">
+            Study Café is a simple digital space for planning
+            your work, protecting your focus and making
+            everyday progress feel a little easier.
+        </p>
+
+        <div class="hero-actions">
+
+            <a href="#focus" class="btn btn-primary">
+                Start a focus session
+                <span>↗</span>
+            </a>
+
+            <a href="#planner" class="text-link">
+                Explore planner
+                <span>↓</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- HERO DASHBOARD -->
+
+    <div class="hero-dashboard">
+
+        <div class="dashboard-top">
+
+            <span>THURSDAY, 24 SEPTEMBER</span>
+
+            <span class="status-dot">
+                <i></i> READY
+            </span>
+
+        </div>
+
+
+        <div class="dashboard-main">
+
+            <p class="small-label">TODAY'S FOCUS</p>
+
+            <h2>Web Development</h2>
+
+            <p>
+                Continue building your next project
+                and practice what you learned.
+            </p>
+
+            <div class="dashboard-progress">
+
+                <div>
+                    <span>Daily progress</span>
+                    <strong id="heroProgress">0%</strong>
+                </div>
+
+                <div class="line">
+                    <span id="heroProgressBar"></span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="dashboard-bottom">
+
+            <div>
+                <strong>03</strong>
+                <span>Tasks</span>
+            </div>
+
+            <div>
+                <strong>25m</strong>
+                <span>Focus</span>
+            </div>
+
+            <div>
+                <strong>01</strong>
+                <span>Goal</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= INTRO ================= -->
+
+<section class="intro-section">
+
+    <div class="intro-number">01</div>
+
+    <div class="intro-content">
+
+        <p class="eyebrow">THE IDEA</p>
+
+        <h2>
+            Less noise.
+            <br>
+            More <em>progress.</em>
+        </h2>
+
+        <p>
+            You don't need another complicated productivity
+            system. Study Café keeps the essentials close:
+            a plan for your week, a place to focus and a
+            simple way to see your progress.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TODAY ================= -->
+
+<section class="today-section">
+
+    <div class="section-title">
+
+        <div>
+            <p class="eyebrow">YOUR SPACE</p>
+
+            <h2>Make today count.</h2>
+        </div>
+
+        <p>
+            Three simple things to keep your study session
+            intentional.
+        </p>
+
+    </div>
+
+
+    <div class="space-grid">
+
+        <article class="space-card">
+
+            <span class="card-index">01</span>
+
+            <div class="space-content">
+
+                <h3>Plan</h3>
+
+                <p>
+                    Know what needs your attention before
+                    you start studying.
+                </p>
+
+                <a href="#planner">
+                    Open planner <span>→</span>
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="space-card active-card">
+
+            <span class="card-index">02</span>
+
+            <div class="space-content">
+
+                <h3>Focus</h3>
+
+                <p>
+                    Give one task your full attention with
+                    a distraction-free timer.
+                </p>
+
+                <a href="#focus">
+                    Enter focus mode <span>→</span>
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="space-card">
+
+            <span class="card-index">03</span>
+
+            <div class="space-content">
+
+                <h3>Track</h3>
+
+                <p>
+                    Check off small wins and watch your
+                    daily progress grow.
+                </p>
+
+                <a href="#tasks">
+                    View progress <span>→</span>
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PLANNER ================= -->
+
+<section class="planner-section" id="planner">
+
+    <div class="section-number">02</div>
+
+    <div class="planner-heading">
+
+        <div>
+            <p class="eyebrow">WEEKLY PLANNER</p>
+
+            <h2>
+                Give your week
+                <em>a little structure.</em>
+            </h2>
+        </div>
+
+        <p>
+            A simple plan leaves more room for actually
+            learning.
+        </p>
+
+    </div>
+
+
+    <div class="planner">
+
+        <div class="planner-header">
+            <span>DAY</span>
+            <span>SUBJECT</span>
+            <span>WHAT'S NEXT</span>
+            <span>TIME</span>
+        </div>
+
+
+        <div class="planner-row">
+
+            <span class="day">MON</span>
+
+            <strong>Web Development</strong>
+
+            <span>CSS practice</span>
+
+            <span class="time">01:00</span>
+
+        </div>
+
+
+        <div class="planner-row">
+
+            <span class="day">TUE</span>
+
+            <strong>C++ Programming</strong>
+
+            <span>OOP revision</span>
+
+            <span class="time">01:30</span>
+
+        </div>
+
+
+        <div class="planner-row">
+
+            <span class="day">WED</span>
+
+            <strong>Database</strong>
+
+            <span>Lecture revision</span>
+
+            <span class="time">02:00</span>
+
+        </div>
+
+
+        <div class="planner-row">
+
+            <span class="day">THU</span>
+
+            <strong>Networking</strong>
+
+            <span>Read notes</span>
+
+            <span class="time">01:00</span>
+
+        </div>
+
+
+        <div class="planner-row">
+
+            <span class="day">FRI</span>
+
+            <strong>English</strong>
+
+            <span>Reading practice</span>
+
+            <span class="time">00:30</span>
+
+        </div>
+
+
+        <div class="planner-row">
+
+            <span class="day">SUN</span>
+
+            <strong>Project Day</strong>
+
+            <span>Build something</span>
+
+            <span class="time">02:00</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOCUS ================= -->
+
+<section class="focus-section" id="focus">
+
+    <div class="section-number">03</div>
+
+    <div class="focus-layout">
+
+        <div class="focus-copy">
+
+            <p class="eyebrow">FOCUS MODE</p>
+
+            <h2>
+                One task.
+                <br>
+                <em>Nothing else.</em>
+            </h2>
+
+            <p>
+                Put the notifications away, choose one task
+                and give yourself 25 minutes of uninterrupted
+                attention.
+            </p>
+
+            <div class="focus-rules">
+
+                <div>
+                    <span>01</span>
+                    <p>Choose one task.</p>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <p>Work until the timer ends.</p>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <p>Take a short break.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- TIMER -->
+
+        <div class="timer-box">
+
+            <div class="timer-header">
+                <span>FOCUS SESSION</span>
+                <span id="timerMode">READY</span>
+            </div>
+
+
+            <div class="timer-ring">
+
+                <div class="timer-inner">
+
+                    <span class="timer-label">TIME LEFT</span>
+
+                    <strong id="timer">25:00</strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="timer-buttons">
+
+                <button id="startTimer" class="btn btn-primary">
+                    Start session
+                </button>
+
+                <button id="resetTimer" class="reset-btn">
+                    Reset
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TASKS ================= -->
+
+<section class="tasks-section" id="tasks">
+
+    <div class="tasks-heading">
+
+        <div>
+            <p class="eyebrow">TODAY</p>
+
+            <h2>Your small wins.</h2>
+        </div>
+
+        <div class="percentage">
+            <strong id="progressPercent">0%</strong>
+            <span>completed</span>
+        </div>
+
+    </div>
+
+
+    <div class="progress-track">
+        <span id="progressFill"></span>
+    </div>
+
+
+    <div class="task-layout">
+
+        <div class="task-list" id="taskList">
+
+            <div class="task completed-task">
+
+                <label>
+                    <input type="checkbox" checked>
+                    <span>Review yesterday's lecture</span>
+                </label>
+
+                <small>DONE</small>
+
+            </div>
+
+
+            <div class="task">
+
+                <label>
+                    <input type="checkbox">
+                    <span>Practice CSS layouts</span>
+                </label>
+
+                <small>TODO</small>
+
+            </div>
+
+
+            <div class="task">
+
+                <label>
+                    <input type="checkbox">
+                    <span>Read JavaScript notes</span>
+                </label>
+
+                <small>TODO</small>
+
+            </div>
+
+        </div>
+
+
+        <div class="add-task">
+
+            <p class="small-label">ADD SOMETHING</p>
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="What do you want to finish?"
+            >
+
+            <button id="addTask">
+                Add task <span>+</span>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= RESOURCES ================= -->
+
+<section class="resources-section" id="resources">
+
+    <div class="section-number">04</div>
+
+    <div class="resources-heading">
+
+        <div>
+            <p class="eyebrow">LEARNING LIBRARY</p>
+
+            <h2>
+                Keep a few good
+                <em>resources close.</em>
+            </h2>
+        </div>
+
+        <p>
+            Useful documentation and practice spaces for
+            your learning journey.
+        </p>
+
+    </div>
+
+
+    <div class="resource-list">
+
+        <a
+            href="https://developer.mozilla.org/"
+            target="_blank"
+            class="resource-row"
+        >
+
+            <span class="resource-no">01</span>
+
+            <div>
+                <h3>MDN Web Docs</h3>
+                <p>Web development documentation</p>
+            </div>
+
+            <span class="resource-arrow">↗</span>
+
+        </a>
+
+
+        <a
+            href="https://github.com/"
+            target="_blank"
+            class="resource-row"
+        >
+
+            <span class="resource-no">02</span>
+
+            <div>
+                <h3>GitHub</h3>
+                <p>Code, projects and collaboration</p>
+            </div>
+
+            <span class="resource-arrow">↗</span>
+
+        </a>
+
+
+        <a
+            href="https://www.w3schools.com/"
+            target="_blank"
+            class="resource-row"
+        >
+
+            <span class="resource-no">03</span>
+
+            <div>
+                <h3>W3Schools</h3>
+                <p>Quick references and practice</p>
+            </div>
+
+            <span class="resource-arrow">↗</span>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= GOAL ================= -->
+
+<section class="goal-section" id="goal">
+
+    <div class="goal-card">
+
+        <div class="goal-copy">
+
+            <p class="eyebrow">ONE THING AT A TIME</p>
+
+            <h2>
+                What's your
+                <em>next goal?</em>
+            </h2>
+
+            <p>
+                Choose something small enough to start
+                today and meaningful enough to keep going.
+            </p>
+
+        </div>
+
+
+        <form id="goalForm">
+
+            <label for="goalInput">
+                MY CURRENT GOAL
+            </label>
+
+            <input
+                type="text"
+                id="goalInput"
+                placeholder="e.g. Build my first JavaScript project"
+                required
+            >
+
+            <div class="goal-bottom">
+
+                <span id="goalStatus">
+                    No goal saved yet.
+                </span>
+
+                <button type="submit" class="btn btn-primary">
+                    Save goal →
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= QUOTE ================= -->
+
+<section class="quote-section">
+
+    <span class="quote-mark">“</span>
+
+    <h2>
+        You don't need a perfect
+        study day. You just need
+        to <em>begin.</em>
+    </h2>
+
+    <p>— A little reminder from Study Café</p>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <a href="#home" class="logo">
+                <span class="logo-mark">SC</span>
+                <span>Study Café</span>
+            </a>
+
+            <p>
+                A quiet digital corner for students
+                who are building something of their own.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <span>EXPLORE</span>
+
+            <a href="#planner">Planner</a>
+            <a href="#focus">Focus Mode</a>
+            <a href="#resources">Library</a>
+            <a href="#goal">My Goal</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <span>CONNECT</span>
+
+            <a
+                href="https://github.com/mahiii9-hub"
+                target="_blank"
+            >
+                GitHub
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/malaika-aiman"
+                target="_blank"
+            >
+                LinkedIn
+            </a>
+
+            <a href="mailto:mahiii.9730@gmail.com">
+                Email
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>Study Café © 2026</span>
+
+        <span>
+            Designed & developed as a personal web project.
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
