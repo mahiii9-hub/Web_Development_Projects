@@ -19,7 +19,7 @@ Welcome to my portfolio repository featuring web development projects and practi
 ### 3. Study Café — Student Study Hub
 * **Description:** Student study hub featuring structured study routines, weekly planners, and interactive signup form.
 * **Tech Stack:** HTML5, CSS3
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/pro-2/2index.html)
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/StudyCafe/index.html)
 
 ### 4. Travel & Tourism Destination Website
 * **Description:** Luxury travel agency website featuring tour packages and custom Midnight Navy & Gold theme.
