@@ -1,804 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Study Café — A Quiet Corner for Curious Minds</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Cafe | Aesthetic Workspace & Study Haven</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- ================= NAVBAR ================= -->
+  <!-- DYNAMIC BACKGROUND LIGHTS -->
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+  <div class="glow glow-3"></div>
 
-<header class="navbar">
+  <!-- NAVIGATION BAR -->
+  <header class="navbar" id="navbar">
+    <a href="#" class="logo">STUDY<span>.CAFE</span></a>
 
-    <a href="#home" class="logo">
-        <span class="logo-mark">SC</span>
-        <span>Study Café</span>
-    </a>
-
-    <nav class="nav-links" id="navLinks">
-        <a href="#home">Home</a>
-        <a href="#planner">Planner</a>
-        <a href="#focus">Focus</a>
-        <a href="#resources">Library</a>
-        <a href="#goal">My Goal</a>
+    <nav>
+      <a href="#about">About Us</a>
+      <a href="#spaces">Workspaces</a>
+      <a href="#gallery">Ambience</a>
+      <a href="#plans">Pass Deck</a>
+      <a href="#resources">Resources</a>
+      <a href="#faq">FAQ</a>
     </nav>
 
-    <div class="nav-right">
+    <a href="#plans" class="nav-btn glow-btn">Reserve Seat</a>
+  </header>
 
-        <button class="theme-btn" id="themeBtn" aria-label="Change theme">
-            ◐
-        </button>
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="pulse-dot"></span> OPEN FOR STUDY & WORK
+        </div>
+        <h1>Study<br><em>Cafe.</em></h1>
+        <p class="hero-text">Your ultimate peaceful space for focused study, high-speed WiFi, artisanal coffee, and aesthetic environment.</p>
 
-        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
-            <span></span>
-            <span></span>
-        </button>
-
-    </div>
-
-</header>
-
-
-<!-- ================= HERO ================= -->
-
-<main>
-
-<section class="hero" id="home">
-
-    <div class="hero-copy">
-
-        <p class="eyebrow">STUDY • FOCUS • GROW</p>
-
-        <h1>
-            A quiet corner
-            <br>
-            for <em>curious minds.</em>
-        </h1>
-
-        <p class="hero-description">
-            Study Café is a simple digital space for planning
-            your work, protecting your focus and making
-            everyday progress feel a little easier.
-        </p>
-
-        <div class="hero-actions">
-
-            <a href="#focus" class="btn btn-primary">
-                Start a focus session
-                <span>↗</span>
-            </a>
-
-            <a href="#planner" class="text-link">
-                Explore planner
-                <span>↓</span>
-            </a>
-
+        <div class="hero-buttons">
+          <a href="#gallery" class="primary-btn pulse-glow">Explore Gallery</a>
+          <a href="#plans" class="secondary-btn">View Membership Plans <span>↗</span></a>
         </div>
 
-    </div>
-
-
-    <!-- HERO DASHBOARD -->
-
-    <div class="hero-dashboard">
-
-        <div class="dashboard-top">
-
-            <span>THURSDAY, 24 SEPTEMBER</span>
-
-            <span class="status-dot">
-                <i></i> READY
-            </span>
-
+        <div class="hero-stats">
+          <div class="stat-item">
+            <strong>24/7</strong>
+            <span>High-Speed Access</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <strong>100%</strong>
+            <span>Silent Zones</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <strong>Fresh</strong>
+            <span>Brewed Coffee</span>
+          </div>
         </div>
+      </div>
 
-
-        <div class="dashboard-main">
-
-            <p class="small-label">TODAY'S FOCUS</p>
-
-            <h2>Web Development</h2>
-
-            <p>
-                Continue building your next project
-                and practice what you learned.
-            </p>
-
-            <div class="dashboard-progress">
-
-                <div>
-                    <span>Daily progress</span>
-                    <strong id="heroProgress">0%</strong>
-                </div>
-
-                <div class="line">
-                    <span id="heroProgressBar"></span>
-                </div>
-
-            </div>
-
+      <div class="hero-image-wrapper">
+        <div class="hero-card glass-card">
+          <!-- LOCAL HERO IMAGE -->
+          <img src="hero.jpg" alt="Study Cafe Main Ambience">
+          <div class="image-note glass-card">
+            <span class="note-tag">MAIN ZONE</span>
+            <strong>Quiet Desk Spaces</strong>
+          </div>
         </div>
+      </div>
+    </section>
 
-
-        <div class="dashboard-bottom">
-
-            <div>
-                <strong>03</strong>
-                <span>Tasks</span>
+    <!-- ABOUT SECTION -->
+    <section class="manifesto" id="about">
+      <div class="section-container">
+        <p class="eyebrow">THE WORKSPACE VISION</p>
+        <h2>Designed For Ultimate<br><span>Focus & Productivity.</span></h2>
+        <div class="manifesto-grid">
+          <div class="manifesto-text">
+            <p><strong>Study Cafe</strong> offers a calm, minimalist environment engineered for students, freelancers, and remote workers.</p>
+            <p>Get uninterrupted electricity, ergonomics seating, and a soothing aesthetic atmosphere to maximize your daily goals.</p>
+          </div>
+          <div class="manifesto-highlights">
+            <div class="highlight-card glass-card">
+              <span class="icon">✦</span>
+              <div>
+                <h4>Ergonomic Workstations</h4>
+                <p>Spacious desks equipped with universal power outlets and reading lamps.</p>
+              </div>
             </div>
-
-            <div>
-                <strong>25m</strong>
-                <span>Focus</span>
+            <div class="highlight-card glass-card">
+              <span class="icon">✧</span>
+              <div>
+                <h4>Artisanal Coffee & Tea</h4>
+                <p>Unlimited fresh brews to keep your energy high all day.</p>
+              </div>
             </div>
-
-            <div>
-                <strong>01</strong>
-                <span>Goal</span>
-            </div>
-
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
-
-</section>
-
-
-<!-- ================= INTRO ================= -->
-
-<section class="intro-section">
-
-    <div class="intro-number">01</div>
-
-    <div class="intro-content">
-
-        <p class="eyebrow">THE IDEA</p>
-
-        <h2>
-            Less noise.
-            <br>
-            More <em>progress.</em>
-        </h2>
-
-        <p>
-            You don't need another complicated productivity
-            system. Study Café keeps the essentials close:
-            a plan for your week, a place to focus and a
-            simple way to see your progress.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- ================= TODAY ================= -->
-
-<section class="today-section">
-
-    <div class="section-title">
-
+    <!-- AMBIENCE / GALLERY SECTION -->
+    <section class="gallery-section" id="gallery">
+      <div class="section-heading">
         <div>
-            <p class="eyebrow">YOUR SPACE</p>
-
-            <h2>Make today count.</h2>
+          <p class="eyebrow">VISUAL TOUR</p>
+          <h2>Cafe <em>Gallery.</em></h2>
         </div>
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">All Spaces</button>
+          <button class="filter-btn" data-filter="desks">Desk Setup</button>
+          <button class="filter-btn" data-filter="library">Books & Decor</button>
+        </div>
+      </div>
 
-        <p>
-            Three simple things to keep your study session
-            intentional.
-        </p>
-
-    </div>
-
-
-    <div class="space-grid">
-
-        <article class="space-card">
-
-            <span class="card-index">01</span>
-
-            <div class="space-content">
-
-                <h3>Plan</h3>
-
-                <p>
-                    Know what needs your attention before
-                    you start studying.
-                </p>
-
-                <a href="#planner">
-                    Open planner <span>→</span>
-                </a>
-
-            </div>
-
+      <div class="gallery-grid">
+        <!-- Local Image 1 -->
+        <article class="art-card glass-card" data-category="desks">
+          <div class="art-img-wrapper">
+            <img src="image1.jpg" alt="Focus Desk Space">
+            <span class="art-badge">ZONE-01</span>
+          </div>
+          <div class="art-body">
+            <h3>Focus Pods</h3>
+            <p>Individual aesthetic study pods designed for deep concentration.</p>
+            <button class="view-art-btn" data-title="Focus Pods" data-artist="Study Cafe" data-desc="Quiet private space with high speed fiber internet." data-img="image1.jpg">Inspect Details ↗</button>
+          </div>
         </article>
 
-
-        <article class="space-card active-card">
-
-            <span class="card-index">02</span>
-
-            <div class="space-content">
-
-                <h3>Focus</h3>
-
-                <p>
-                    Give one task your full attention with
-                    a distraction-free timer.
-                </p>
-
-                <a href="#focus">
-                    Enter focus mode <span>→</span>
-                </a>
-
-            </div>
-
+        <!-- Local Image 2 -->
+        <article class="art-card glass-card" data-category="library">
+          <div class="art-img-wrapper">
+            <img src="image2.jpg" alt="Reading Lounge">
+            <span class="art-badge">ZONE-02</span>
+          </div>
+          <div class="art-body">
+            <h3>Reading Lounge</h3>
+            <p>Comfortable seating surrounded by curated reference books and warm lighting.</p>
+            <button class="view-art-btn" data-title="Reading Lounge" data-artist="Study Cafe" data-desc="Relaxed seating area with ambient aesthetic lighting." data-img="image2.jpg">Inspect Details ↗</button>
+          </div>
         </article>
 
-
-        <article class="space-card">
-
-            <span class="card-index">03</span>
-
-            <div class="space-content">
-
-                <h3>Track</h3>
-
-                <p>
-                    Check off small wins and watch your
-                    daily progress grow.
-                </p>
-
-                <a href="#tasks">
-                    View progress <span>→</span>
-                </a>
-
-            </div>
-
+        <!-- Local Image 3 -->
+        <article class="art-card glass-card" data-category="desks">
+          <div class="art-img-wrapper">
+            <img src="image3.jpg" alt="Group Discussion Desk">
+            <span class="art-badge">ZONE-03</span>
+          </div>
+          <div class="art-body">
+            <h3>Collaboration Desk</h3>
+            <p>Spacious group study tables for brainstorming and team projects.</p>
+            <button class="view-art-btn" data-title="Collaboration Desk" data-artist="Study Cafe" data-desc="Ideal space for group study and project sessions." data-img="image3.jpg">Inspect Details ↗</button>
+          </div>
         </article>
+      </div>
+    </section>
 
-    </div>
-
-</section>
-
-
-<!-- ================= PLANNER ================= -->
-
-<section class="planner-section" id="planner">
-
-    <div class="section-number">02</div>
-
-    <div class="planner-heading">
-
+    <!-- RESOURCES SECTION -->
+    <section class="resources" id="resources">
+      <div class="section-heading">
         <div>
-            <p class="eyebrow">WEEKLY PLANNER</p>
-
-            <h2>
-                Give your week
-                <em>a little structure.</em>
-            </h2>
+          <p class="eyebrow">STUDY MATERIAL & ENVIRONMENT</p>
+          <h2>Aesthetic <em>Resources.</em></h2>
         </div>
-
-        <p>
-            A simple plan leaves more room for actually
-            learning.
-        </p>
-
-    </div>
-
-
-    <div class="planner">
-
-        <div class="planner-header">
-            <span>DAY</span>
-            <span>SUBJECT</span>
-            <span>WHAT'S NEXT</span>
-            <span>TIME</span>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
+        <div class="resource-image">
+          <!-- LOCAL BOOKS AESTHETICS IMAGE -->
+          <img src="books aesthetics.jpg" alt="Books & Aesthetics" style="width:100%; border-radius: 20px; border: 1px solid var(--glass-border);">
         </div>
-
-
-        <div class="planner-row">
-
-            <span class="day">MON</span>
-
-            <strong>Web Development</strong>
-
-            <span>CSS practice</span>
-
-            <span class="time">01:00</span>
-
+        <div class="resource-content">
+          <h3 style="font-family: 'Cinzel', serif; font-size: 28px; margin-bottom: 15px;">Curated Library & Quiet Vibe</h3>
+          <p style="color: var(--text-muted); margin-bottom: 20px;">Access our in-house collection of reference books, study trackers, quiet noise-canceling headphones, and unlimited power backup.</p>
+          <a href="#plans" class="primary-btn pulse-glow">Get Access Pass</a>
         </div>
-
-
-        <div class="planner-row">
-
-            <span class="day">TUE</span>
-
-            <strong>C++ Programming</strong>
-
-            <span>OOP revision</span>
-
-            <span class="time">01:30</span>
-
-        </div>
-
-
-        <div class="planner-row">
-
-            <span class="day">WED</span>
-
-            <strong>Database</strong>
-
-            <span>Lecture revision</span>
-
-            <span class="time">02:00</span>
-
-        </div>
-
-
-        <div class="planner-row">
-
-            <span class="day">THU</span>
-
-            <strong>Networking</strong>
-
-            <span>Read notes</span>
-
-            <span class="time">01:00</span>
-
-        </div>
-
-
-        <div class="planner-row">
-
-            <span class="day">FRI</span>
-
-            <strong>English</strong>
-
-            <span>Reading practice</span>
-
-            <span class="time">00:30</span>
-
-        </div>
-
-
-        <div class="planner-row">
-
-            <span class="day">SUN</span>
-
-            <strong>Project Day</strong>
-
-            <span>Build something</span>
-
-            <span class="time">02:00</span>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= FOCUS ================= -->
-
-<section class="focus-section" id="focus">
-
-    <div class="section-number">03</div>
-
-    <div class="focus-layout">
-
-        <div class="focus-copy">
-
-            <p class="eyebrow">FOCUS MODE</p>
-
-            <h2>
-                One task.
-                <br>
-                <em>Nothing else.</em>
-            </h2>
-
-            <p>
-                Put the notifications away, choose one task
-                and give yourself 25 minutes of uninterrupted
-                attention.
-            </p>
-
-            <div class="focus-rules">
-
-                <div>
-                    <span>01</span>
-                    <p>Choose one task.</p>
-                </div>
-
-                <div>
-                    <span>02</span>
-                    <p>Work until the timer ends.</p>
-                </div>
-
-                <div>
-                    <span>03</span>
-                    <p>Take a short break.</p>
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!-- TIMER -->
-
-        <div class="timer-box">
-
-            <div class="timer-header">
-                <span>FOCUS SESSION</span>
-                <span id="timerMode">READY</span>
-            </div>
-
-
-            <div class="timer-ring">
-
-                <div class="timer-inner">
-
-                    <span class="timer-label">TIME LEFT</span>
-
-                    <strong id="timer">25:00</strong>
-
-                </div>
-
-            </div>
-
-
-            <div class="timer-buttons">
-
-                <button id="startTimer" class="btn btn-primary">
-                    Start session
-                </button>
-
-                <button id="resetTimer" class="reset-btn">
-                    Reset
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= TASKS ================= -->
-
-<section class="tasks-section" id="tasks">
-
-    <div class="tasks-heading">
-
+      </div>
+    </section>
+
+    <!-- PASS DECK / PRICING PLANS -->
+    <section class="passes" id="plans">
+      <div class="section-heading">
         <div>
-            <p class="eyebrow">TODAY</p>
+          <p class="eyebrow">MEMBERSHIP PACKAGES</p>
+          <h2>Access <em>Passes.</em></h2>
+        </div>
+        <p class="heading-desc">Select your pass to get reserved seating and cafe benefits.</p>
+      </div>
 
-            <h2>Your small wins.</h2>
+      <div class="plan-grid deck-grid">
+        <!-- Pass 1 -->
+        <div class="deck-card glass-card" data-pass="Daily Study Pass">
+          <div class="deck-header">
+            <div class="pass-chip"></div>
+            <span class="pass-id">PASS #01</span>
+          </div>
+          <div class="deck-body">
+            <span class="deck-tag">DAY PASS</span>
+            <h3>Daily Pass</h3>
+            <div class="deck-price">Rs. 500 <span>/ day</span></div>
+            <ul class="deck-perks">
+              <li>High-speed Fiber WiFi</li>
+              <li>1 Free Complimentary Coffee</li>
+              <li>Shared Desk Access</li>
+            </ul>
+          </div>
+          <button class="claim-pass-btn choose-btn" data-pass="Daily Study Pass">Claim Pass</button>
         </div>
 
-        <div class="percentage">
-            <strong id="progressPercent">0%</strong>
-            <span>completed</span>
+        <!-- Pass 2 -->
+        <div class="deck-card glass-card featured-deck" data-pass="Monthly Pro Pass">
+          <div class="hologram-glow"></div>
+          <div class="deck-header">
+            <div class="pass-chip gold"></div>
+            <span class="pass-id">PASS #02 • RECOMMENDED</span>
+          </div>
+          <div class="deck-body">
+            <span class="deck-tag gold-tag">MONTHLY MEMBER</span>
+            <h3>Pro Monthly</h3>
+            <div class="deck-price">Rs. 1,200 <span>/ month</span></div>
+            <ul class="deck-perks">
+              <li>24/7 Unlimited Entrance</li>
+              <li>Dedicated Reserved Seat</li>
+              <li>Unlimited Coffee & Tea Bar</li>
+              <li>Free Printing Service (50 pages)</li>
+            </ul>
+          </div>
+          <button class="claim-pass-btn gold-btn choose-btn" data-pass="Monthly Pro Pass">Claim VIP Pass</button>
         </div>
 
-    </div>
-
-
-    <div class="progress-track">
-        <span id="progressFill"></span>
-    </div>
-
-
-    <div class="task-layout">
-
-        <div class="task-list" id="taskList">
-
-            <div class="task completed-task">
-
-                <label>
-                    <input type="checkbox" checked>
-                    <span>Review yesterday's lecture</span>
-                </label>
-
-                <small>DONE</small>
-
-            </div>
-
-
-            <div class="task">
-
-                <label>
-                    <input type="checkbox">
-                    <span>Practice CSS layouts</span>
-                </label>
-
-                <small>TODO</small>
-
-            </div>
-
-
-            <div class="task">
-
-                <label>
-                    <input type="checkbox">
-                    <span>Read JavaScript notes</span>
-                </label>
-
-                <small>TODO</small>
-
-            </div>
-
+        <!-- Pass 3 -->
+        <div class="deck-card glass-card" data-pass="Dedicated Cabin Pass">
+          <div class="deck-header">
+            <div class="pass-chip platinum"></div>
+            <span class="pass-id">PASS #03</span>
+          </div>
+          <div class="deck-body">
+            <span class="deck-tag">PRIVATE CABIN</span>
+            <h3>Private Desk</h3>
+            <div class="deck-price">Rs. 3,000 <span>/ month</span></div>
+            <ul class="deck-perks">
+              <li>Private Enclosed Study Cabin</li>
+              <li>Locker Storage Space</li>
+              <li>Meeting Room Booking Access</li>
+            </ul>
+          </div>
+          <button class="claim-pass-btn choose-btn" data-pass="Dedicated Cabin Pass">Claim Private Pass</button>
         </div>
+      </div>
+    </section>
 
+    <!-- FAQ SECTION -->
+    <section class="faq" id="faq">
+      <div class="section-container">
+        <p class="eyebrow">COMMON QUESTIONS</p>
+        <h2>Cafe <em>Details.</em></h2>
 
-        <div class="add-task">
-
-            <p class="small-label">ADD SOMETHING</p>
-
-            <input
-                type="text"
-                id="taskInput"
-                placeholder="What do you want to finish?"
-            >
-
-            <button id="addTask">
-                Add task <span>+</span>
+        <div class="accordion">
+          <div class="accordion-item glass-card">
+            <button class="accordion-header">
+              <span>What are the operating hours?</span>
+              <span class="icon">+</span>
             </button>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= RESOURCES ================= -->
-
-<section class="resources-section" id="resources">
-
-    <div class="section-number">04</div>
-
-    <div class="resources-heading">
-
-        <div>
-            <p class="eyebrow">LEARNING LIBRARY</p>
-
-            <h2>
-                Keep a few good
-                <em>resources close.</em>
-            </h2>
-        </div>
-
-        <p>
-            Useful documentation and practice spaces for
-            your learning journey.
-        </p>
-
-    </div>
-
-
-    <div class="resource-list">
-
-        <a
-            href="https://developer.mozilla.org/"
-            target="_blank"
-            class="resource-row"
-        >
-
-            <span class="resource-no">01</span>
-
-            <div>
-                <h3>MDN Web Docs</h3>
-                <p>Web development documentation</p>
+            <div class="accordion-content">
+              <p>We are open 24/7 for Monthly Pro and Private Desk pass holders. Daily pass visitors can access the cafe from 8:00 AM to 11:00 PM.</p>
             </div>
+          </div>
 
-            <span class="resource-arrow">↗</span>
-
-        </a>
-
-
-        <a
-            href="https://github.com/"
-            target="_blank"
-            class="resource-row"
-        >
-
-            <span class="resource-no">02</span>
-
-            <div>
-                <h3>GitHub</h3>
-                <p>Code, projects and collaboration</p>
+          <div class="accordion-item glass-card">
+            <button class="accordion-header">
+              <span>Is outside food allowed inside?</span>
+              <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p>Light snacks are allowed, but we also offer an in-house cafe menu featuring fresh brews, sandwiches, and bakery items.</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-            <span class="resource-arrow">↗</span>
-
-        </a>
-
-
-        <a
-            href="https://www.w3schools.com/"
-            target="_blank"
-            class="resource-row"
-        >
-
-            <span class="resource-no">03</span>
-
-            <div>
-                <h3>W3Schools</h3>
-                <p>Quick references and practice</p>
-            </div>
-
-            <span class="resource-arrow">↗</span>
-
-        </a>
-
+  <!-- ARTWORK / PHOTO INSPECT MODAL -->
+  <div class="modal" id="artModal">
+    <div class="modal-box art-modal-box glass-card">
+      <button class="close">&times;</button>
+      <div class="art-modal-grid">
+        <div class="modal-art-img">
+          <img id="modalArtImg" src="" alt="Gallery Image">
+        </div>
+        <div class="modal-art-content">
+          <p class="eyebrow" id="modalArtArtist">Study Cafe Zone</p>
+          <h2 id="modalArtTitle">Space Title</h2>
+          <p id="modalArtDesc">Description text goes here.</p>
+          <button class="primary-btn close-modal">Close Preview</button>
+        </div>
+      </div>
     </div>
+  </div>
 
-</section>
-
-
-<!-- ================= GOAL ================= -->
-
-<section class="goal-section" id="goal">
-
-    <div class="goal-card">
-
-        <div class="goal-copy">
-
-            <p class="eyebrow">ONE THING AT A TIME</p>
-
-            <h2>
-                What's your
-                <em>next goal?</em>
-            </h2>
-
-            <p>
-                Choose something small enough to start
-                today and meaningful enough to keep going.
-            </p>
-
-        </div>
-
-
-        <form id="goalForm">
-
-            <label for="goalInput">
-                MY CURRENT GOAL
-            </label>
-
-            <input
-                type="text"
-                id="goalInput"
-                placeholder="e.g. Build my first JavaScript project"
-                required
-            >
-
-            <div class="goal-bottom">
-
-                <span id="goalStatus">
-                    No goal saved yet.
-                </span>
-
-                <button type="submit" class="btn btn-primary">
-                    Save goal →
-                </button>
-
-            </div>
-
-        </form>
-
+  <!-- PASS CLAIM MODAL -->
+  <div class="modal" id="passModal">
+    <div class="modal-box glass-card">
+      <button class="close">&times;</button>
+      <p class="eyebrow">RESERVATION SYSTEM</p>
+      <h2 id="modalPassTitle">Pass Selected</h2>
+      <p>Confirming your seat reservation for Study Cafe...</p>
+      <button class="primary-btn close-modal">Confirm & Book Seat</button>
     </div>
+  </div>
 
-</section>
-
-
-<!-- ================= QUOTE ================= -->
-
-<section class="quote-section">
-
-    <span class="quote-mark">“</span>
-
-    <h2>
-        You don't need a perfect
-        study day. You just need
-        to <em>begin.</em>
-    </h2>
-
-    <p>— A little reminder from Study Café</p>
-
-</section>
-
-</main>
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer>
-
-    <div class="footer-main">
-
-        <div class="footer-brand">
-
-            <a href="#home" class="logo">
-                <span class="logo-mark">SC</span>
-                <span>Study Café</span>
-            </a>
-
-            <p>
-                A quiet digital corner for students
-                who are building something of their own.
-            </p>
-
-        </div>
-
-
-        <div class="footer-column">
-
-            <span>EXPLORE</span>
-
-            <a href="#planner">Planner</a>
-            <a href="#focus">Focus Mode</a>
-            <a href="#resources">Library</a>
-            <a href="#goal">My Goal</a>
-
-        </div>
-
-
-        <div class="footer-column">
-
-            <span>CONNECT</span>
-
-            <a
-                href="https://github.com/mahiii9-hub"
-                target="_blank"
-            >
-                GitHub
-            </a>
-
-            <a
-                href="https://www.linkedin.com/in/malaika-aiman"
-                target="_blank"
-            >
-                LinkedIn
-            </a>
-
-            <a href="mailto:mahiii.9730@gmail.com">
-                Email
-            </a>
-
-        </div>
-
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="logo">STUDY<span>.CAFE</span></div>
+      <p>Your Peaceful Study & Work Workspace</p>
     </div>
-
-
     <div class="footer-bottom">
-
-        <span>Study Café © 2026</span>
-
-        <span>
-            Designed & developed as a personal web project.
-        </span>
-
+      <span>© 2026 Study Cafe. All rights reserved.</span>
+      <div class="credit-tag">Designed by Malaika</div>
     </div>
+  </footer>
 
-</footer>
-
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
