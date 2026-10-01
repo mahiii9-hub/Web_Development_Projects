@@ -58,8 +58,11 @@ Welcome to my portfolio repository featuring web development projects and practi
 * **Tech Stack:** HTML5, CSS3, JavaScript
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/Online%20Course/index.html)
 
+** 11.Study Café — Virtual Study Room & Productivity Hub**
 
-
+* **Description:** A modern, aesthetic, and fully responsive web application designed for students and self-learners, featuring interactive study timers, ambient soundscapes, task tracking, and curated study resource hubs.
+* **Tech Stack:** HTML5, CSS3, JavaScript
+* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/Web_Development_Projects/StudyCafe/index.html)
 ---
 
 **Developed with ❤️ by MAHI!**
