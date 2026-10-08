@@ -67,4 +67,4 @@ Welcome to my portfolio repository featuring web development projects and practi
 * **Live Demo:** [View Live Project](https://mahiii9-hub.github.io//Web_Development_Projects/FITORA/index.html )
 ---
 
-**Developed with ❤️ by MAHI!**
+**Developed with ❤️ by MALAIKA!**
