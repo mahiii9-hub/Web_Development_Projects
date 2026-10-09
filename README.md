@@ -9,12 +9,12 @@ Welcome to my portfolio repository featuring web development projects and practi
 ### 1. Tech Innovators Summit 2026 Landing Page
 * **Description:** A semantic HTML5 project featuring event details, schedules, speaker lists, and forms.
 * **Tech Stack:** HTML5
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/web-development-projects/Pro-1/index.html)
+* **Live Demo:** [View Live Project](https://github.com/malaika-aiman/web-development-projects/Pro-1/index.html)
 
 ### 2. Interactive Event & Task Manager
 * **Description:** Full-stack task management dashboard with dynamic progress tracking and task filtering.
 * **Tech Stack:** React, Express.js (REST API), Tailwind CSS
-* **Live Demo:** [View Live Project](https://mahiii9-hub.github.io/web-development-projects/Tech/project2.html)
+* **Live Demo:** [View Live Project](https://github.com/malaika-aiman/web-development-projects/Tech/project2.html)
 
 ### 3. Study Café — Student Study Hub
 * **Description:** Student study hub featuring structured study routines, weekly planners, and interactive signup form.
